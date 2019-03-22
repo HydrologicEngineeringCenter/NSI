@@ -1,10 +1,9 @@
 **National Structure Inventory (NSI)**
 
-**March 2019  
-**
+**March 2019
 
-**  
-**
+
+
 
 # Contents
 
@@ -100,7 +99,7 @@ responsible for giving approximate values for each attribute, and
 documenting the assumptions in providing those attributes. The full list
 of fields for the NSI are:
 
-![](media/image2.emf)
+![](media/image2.png)
 
 # USACE-Developed NSI Base Data
 
