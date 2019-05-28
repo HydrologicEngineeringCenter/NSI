@@ -1,6 +1,6 @@
 **National Structure Inventory (NSI)**
 
-**March 2019
+March 2019
 
 
 
@@ -22,6 +22,18 @@
 [5. Acronyms 8](#acronyms)
 
 **National Structure Inventory (NSI)**
+
+# Mission
+Provide access to point based structure inventories with attribution to support evaluation of consequences from natural and man made hazards. 
+
+# Vision
+To support all federal agencies interested in collaborating on structure inventory data
+
+# Goals
+1. Provide access to the data to as many people and agencies as possible.
+2. Improve the quality of the data.
+3. Improve the ability for the U.S. to respond to disasters.
+4. Improve the ability for the U.S. to plan for future disasters.
 
 **Overview**
 
