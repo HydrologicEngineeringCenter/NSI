@@ -7,19 +7,19 @@ March 2019
 
 # Contents
 
-[1. Purpose 1](#purpose)
+[1. Mission Vision and Goals](#mission)
 
-[2. Overview of the National Structure Inventory
-1](#overview-of-the-national-structure-inventory)
+[2. Purpose](#purpose)
 
-[3. NSI Fields 2](#nsi-fields)
+[3. Overview of the National Structure Inventory](#overview-of-the-national-structure-inventory)
 
-[4. USACE-Developed NSI Base Data 4](#usace-developed-nsi-base-data)
+[4. NSI Fields](#nsi-fields)
 
-[2019 Base Quality Level Data Generation
-4](#base-quality-level-data-generation)
+[5. USACE-Developed NSI Base Data](#usace-developed-nsi-base-data)
 
-[5. Acronyms 8](#acronyms)
+[6. 2019 Base Quality Level Data Generation](#base-quality-level-data-generation)
+
+[7. Acronyms 8](#acronyms)
 
 **National Structure Inventory (NSI)**
 
@@ -34,6 +34,8 @@ To support all federal agencies interested in collaborating on structure invento
 2. Improve the quality of the data.
 3. Improve the ability for the U.S. to respond to disasters.
 4. Improve the ability for the U.S. to plan for future disasters.
+
+
 
 **Overview**
 
