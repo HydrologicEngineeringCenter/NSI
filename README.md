@@ -19,7 +19,7 @@ March 2019
 
 [6. 2019 Base Quality Level Data Generation](#base-quality-level-data-generation)
 
-[7. Acronyms 8](#acronyms)
+[7. Acronyms](#acronyms)
 
 **National Structure Inventory (NSI)**
 
