@@ -53,6 +53,12 @@ data structure and to document the processes utilized to produce the
 
 # Overview of the National Structure Inventory
 
+<p align="center">
+  <img src="media/Hexbins_Value.png"/>
+  <br/>
+    The value of the NSI points represented through Hexbins at the national scale
+</p>
+
 The structure inventory databases contained in the NSI are arranged by
 the quality level of the data in the structure inventory. There are two
 quality level categories: Base and High. The Base quality level contains
