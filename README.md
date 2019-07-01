@@ -350,6 +350,228 @@ NSI users are not relying on the USACE EGM curves, they should instead
 assume a 50% relationship unless better data is available to suggest
 otherwise.
 
+## Occupancy Type
+
+Occupancy types are used to help determine structure valuation, population,
+and to define structure damage criteria (for flooding). The occupancy types
+are based on the FEMA occupancy type definitions with further classification
+to meet the criteria for USACE economic guidance memorandums. The table of 
+occupancy type names and their descriptions are below. These are utilized to
+support the base level data and are not required for other datasets.
+
+<table>
+  <thead>
+    <tr class="header">
+      <th><strong>Damage Category</strong></th>
+      <th><strong>Occupancy Type Name</strong></th>
+      <th><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES1-1SNB</td>
+      <td>Single Family Residential, 1 story, no basement</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES1-1SWB</td>
+      <td>Single Family Residential, 1 story, with basement</td>
+    </tr>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES1-2SNB</td>
+      <td>Single Family Residential, 2 story, no basement</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES1-2SWB</td>
+      <td>Single Family Residential, 2 story, with basement</td>
+    </tr>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES1-3SNB</td>
+      <td>Single Family Residential, 3 story, no basement</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES1-3SWB</td>
+      <td>Single Family Residential, 3 story, with basement</td>
+    </tr>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES1-SLNB</td>
+      <td>Single Family Residential, split-level, no basement</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES1-SLWB</td>
+      <td>Single Family Residential, split-level, with basement</td>
+    </tr>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES2</td>
+      <td>Manufactured Home</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES3A</td>
+      <td>Multi-Family housing 2 units</td>
+    </tr>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES3B</td>
+      <td>Multi-Family housing 3-4 units</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES3C</td>
+      <td>Multi-Family housing 5-10 units</td>
+    </tr>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES3D</td>
+      <td>Multi-Family housing 10-19 units</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES3E</td>
+      <td>Multi-Family housing 20-50 units</td>
+    </tr>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES3F</td>
+      <td>Multi-Family housing 50 plus units</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES4</td>
+      <td>Average Hotel</td>
+    </tr>
+    <tr class="odd">
+      <td>Residential</td>
+      <td>RES5</td>
+      <td>Nursing Home</td>
+    </tr>
+    <tr class="even">
+      <td>Residential</td>
+      <td>RES6</td>
+      <td>Nursing Home</td>
+    </tr>
+    <tr class="odd">
+      <td>Commercial</td>
+      <td>COM1</td>
+      <td>Average Retail</td>
+    </tr>
+    <tr class="even">
+      <td>Commercial</td>
+      <td>COM2</td>
+      <td>Average Wholesale</td>
+    </tr>
+    <tr class="odd">
+      <td>Commercial</td>
+      <td>COM3</td>
+      <td>Average Personal & Repair Services</td>
+    </tr>
+    <tr class="even">
+      <td>Commercial</td>
+      <td>COM4</td>
+      <td>Average Professional Technical Services</td>
+    </tr>
+    <tr class="odd">
+      <td>Commercial</td>
+      <td>COM5</td>
+      <td>Bank</td>
+    </tr>
+    <tr class="even">
+      <td>Commercial</td>
+      <td>COM6</td>
+      <td>Hospital</td>
+    </tr>
+    <tr class="odd">
+      <td>Commercial</td>
+      <td>COM7</td>
+      <td>Average Medical Office</td>
+    </tr>
+    <tr class="even">
+      <td>Commercial</td>
+      <td>COM8</td>
+      <td>Average Entertainment/Recreation</td>
+    </tr>
+    <tr class="odd">
+      <td>Commercial</td>
+      <td>COM9</td>
+      <td>Average Theater</td>
+    </tr>
+    <tr class="even">
+      <td>Commercial</td>
+      <td>COM10</td>
+      <td>Garage</td>
+    </tr>
+    <tr class="odd">
+      <td>Industrial</td>
+      <td>IND1</td>
+      <td>Average Heavy Industrial</td>
+    </tr>
+    <tr class="even">
+      <td>Industrial</td>
+      <td>IND2</td>
+      <td>Average light industrial</td>
+    </tr>
+    <tr class="odd">
+      <td>Industrial</td>
+      <td>IND3</td>
+      <td>Average Food/Drug/Chemical</td>
+    </tr>
+    <tr class="even">
+      <td>Industrial</td>
+      <td>IND4</td>
+      <td>Average Metals/Minerals processing</td>
+    </tr>
+    <tr class="odd">
+      <td>Industrial</td>
+      <td>IND5</td>
+      <td>Average High Technology</td>
+    </tr>
+    <tr class="even">
+      <td>Industrial</td>
+      <td>IND6</td>
+      <td>Average Construction</td>
+    </tr>
+    <tr class="odd">
+      <td>Commercial</td>
+      <td>AGR1</td>
+      <td>Average Agricultural</td>
+    </tr>
+    <tr class="even">
+      <td>Commercial</td>
+      <td>REL1</td>
+      <td>Church</td>
+    </tr>
+    <tr class="odd">
+      <td>Public</td>
+      <td>GOV1</td>
+      <td>Average Government Services</td>
+    </tr>
+    <tr class="even">
+      <td>Public</td>
+      <td>GOV2</td>
+      <td>Average Emergency Response</td>
+    </tr>
+    <tr class="odd">
+      <td>Public</td>
+      <td>EDU1</td>
+      <td>Average School</td>
+    </tr>
+    <tr class="even">
+      <td>Public</td>
+      <td>EDU2</td>
+      <td>Average College/University</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## Construction Type
 
 The hzCensusBlock table contains an attribute for building scheme, and
