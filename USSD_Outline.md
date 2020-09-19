@@ -8,6 +8,8 @@ Structure inventories are an important component of risk analyses, but the Unite
 
 ## Introduction/Background
 Describe what NSI is, how it has been used.
+The National Structure Inventory is a database that stores structure inventories. It includes an inventory built from consistent resources that covers the entire nation. The structure inventory is a point based feature for each structure placed as close to the center of the building and representing our best ability to describe the attributes of the structure. The attributes are structure category, occypancy type, construction type, foundation type, foundation height, structure value and population characteristics. The database has been avaialble since 2011, and has had three national datasets constructed across its lifespan. The initial datasets were statistical pseudo inventories, but with the latest NSI 2.0 our characterization of structure attributes and locations have greatly improved.
+
 The flooding on the Misouri River in 2011 required a team to develop after action reviews of the flood, which needed consistently developed structure inventories for the Missouri River and Mississippi River all the way to the coast. After that study, the approach was generalized to create an inventory for the entire Nation. This was driven by the Corps Water Management Systems (CWMS) National Implementation to drive down costs of developing consequence estimation models for the nation.
 
 Original NSI in 2011
