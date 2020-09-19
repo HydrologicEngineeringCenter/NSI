@@ -14,11 +14,13 @@ Original NSI in 2011
 - HAZUS database converted to points. (Did we use the dysmetric approach in 2011? i dont think we did)
 - Used Hazus Earthquake Manual to define Nighttime population
 - Found many quality issues with the HAZUS data because we ran the entire nation algorithmically.
+
 NSI 2016
 - Incorporated Dysmetric Approach using NLCD urbanized data
 - Incorporated 2010 census population using LEHD data
 - Nighttime population assumptions based on LEHD data
 - Partnered with FEMA to produce Dysmetric HAZUS databases
+
 NSI 2018 "NSI 2.0"
 - Incorperated other sources of data
   - Parcel Data from Corelogic
