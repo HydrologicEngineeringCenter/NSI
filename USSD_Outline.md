@@ -8,6 +8,26 @@ Structure inventories are an important component of risk analyses, but the Unite
 
 ## Introduction/Background
 Describe what NSI is, how it has been used.
+The flooding on the Misouri River in 2011 required a team to develop after action reviews of the flood, which needed consistently developed structure inventories for the Missouri River and Mississippi River all the way to the coast. After that study, the approach was generalized to create an inventory for the entire Nation. This was driven by the Corps Water Management Systems (CWMS) National Implementation to drive down costs of developing consequence estimation models for the nation.
+
+Original NSI in 2011
+- HAZUS database converted to points. (Did we use the dysmetric approach in 2011? i dont think we did)
+- Used Hazus Earthquake Manual to define Nighttime population
+- Found many quality issues with the HAZUS data because we ran the entire nation algorithmically.
+NSI 2016
+- Incorporated Dysmetric Approach using NLCD urbanized data
+- Incorporated 2010 census population using LEHD data
+- Nighttime population assumptions based on LEHD data
+- Partnered with FEMA to produce Dysmetric HAZUS databases
+NSI 2018 "NSI 2.0"
+- Incorperated other sources of data
+  - Parcel Data from Corelogic
+  - Buisness data
+  - Schools data
+- Restricted ability to share due to source data
+
+Through the development of this inventory relationships between the developers and the FEMA HAZUS team have grown through the years, resulting in multiple interagency collaborations. Each collaboration collectively improved the capabilities of each agency. This paper outlines our next collaborative effort.
+
 ### Purpose
 Describe the purpose and use cases of the NSI
 ### Historic Versions
