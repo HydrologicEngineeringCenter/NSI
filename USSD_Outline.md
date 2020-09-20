@@ -35,7 +35,7 @@ NSI 2018 "NSI 2.0"
 Through the development of this inventory relationships between the developers and the FEMA HAZUS team have grown through the years, resulting in multiple interagency collaborations. Each collaboration collectively improved the capabilities of each agency. This paper outlines our next collaborative effort.
 
 ### Purpose
-Describe the purpose and use cases of the NSI
+In the field of public saftey a discription of the impacts of the natural disaster is necessary to understand the significance of the diaster. This is also true in portfolio risk management to support the evaluation of priorities for the portfolio. In the case of disaster managment, the most expediant analysis is necessary. For portfolio management the analysis must be consistent.
 ### Historic Versions
 Describe historic releases 2011, 2016, 2018 and briefly describe feature enhancements and changes in data sources/restrictions
 ### API?
