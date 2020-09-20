@@ -14,6 +14,15 @@ The National Structure Inventory is a database that stores structure inventories
 
 The flooding on the Misouri River in 2011 required a team to develop after action reviews of the flood, which needed consistently developed structure inventories for the Missouri River and Mississippi River all the way to the coast. After that study, the approach was generalized to create an inventory for the entire Nation. This was driven by the Corps Water Management Systems (CWMS) National Implementation to drive down costs of developing consequence estimation models for the nation.
 
+
+
+Through the development of this inventory relationships between the developers and the FEMA HAZUS team have grown through the years, resulting in multiple interagency collaborations. Each collaboration collectively improved the capabilities of each agency. This paper outlines our next collaborative effort.
+
+### Purpose
+In the field of public saftey a discription of the impacts of the natural disaster is necessary to understand the significance of the diaster. This is also true in portfolio risk management to support the evaluation of priorities for the portfolio. In the case of disaster managment, the most expediant analysis is necessary. For portfolio management the analysis must be consistent.
+### Historic Versions
+In the United States structures are demolished and built continuously, in order to produce a database that reasonably reflects current conditions we update the inventory as frequently as we can. Decreasing the time between development requires streamlining automated processes and developing input data pipelines. Various inputs are updated at different intervals, which complicates some of these processes. Additionally, supporting portfolio management at a national scope requires stability of the inventory (or access to a stable version of the inventory) across time. These design decisions cannot be taken lightly and must be considered carefully to support the various stakeholders in this product. Here is a list of the historic NSI inventories, and some of the changes that have occured across the development time frame.
+
 Original NSI in 2011
 - HAZUS database converted to points. (Did we use the dysmetric approach in 2011? i dont think we did)
 - Used Hazus Earthquake Manual to define Nighttime population
@@ -32,12 +41,7 @@ NSI 2018 "NSI 2.0"
   - Schools data
 - Restricted ability to share due to source data
 
-Through the development of this inventory relationships between the developers and the FEMA HAZUS team have grown through the years, resulting in multiple interagency collaborations. Each collaboration collectively improved the capabilities of each agency. This paper outlines our next collaborative effort.
 
-### Purpose
-In the field of public saftey a discription of the impacts of the natural disaster is necessary to understand the significance of the diaster. This is also true in portfolio risk management to support the evaluation of priorities for the portfolio. In the case of disaster managment, the most expediant analysis is necessary. For portfolio management the analysis must be consistent.
-### Historic Versions
-Describe historic releases 2011, 2016, 2018 and briefly describe feature enhancements and changes in data sources/restrictions
 ### API?
 Describe the API
 ## Need for a National Structure Inventory
