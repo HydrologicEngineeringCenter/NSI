@@ -48,6 +48,11 @@ Describe the API
 Clearly articulate why something like this is needed - maybe an example from Laura, Sandy or Puerto Rico?
 ### Requirements for an acceptable NSI
 Define requirements to make NSI applicable for all hazards and for emergency managment planning.
+- Consistent
+- Complete
+- Timely
+- Open Data
+
 ## Moving Forward
 Describe plans for how we are going to meet the requirements, what are our current investigations etc.
 ## Concluding Remarks
