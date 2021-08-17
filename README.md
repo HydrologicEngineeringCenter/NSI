@@ -119,7 +119,32 @@ responsible for giving approximate values for each attribute, and
 documenting the assumptions in providing those attributes. The full list
 of fields for the NSI are:
 
-![](media/image2.png)
+Field Name | Description | Type | Limits
+--- | --- | --- | ---
+fd_id | unique structure identifier | string |
+x | x coordinate in Graphic Coordinate System (GCS) WGS84| float64 
+y | y coordinate in WGS84 | float64 |
+cbfips | census block that contains the structure | string | 15 characters
+st_damcat | damage category name (e.g. Residential, Commercial, Industrial, Public) | string | 
+occtype | occupancy type name | string |
+val_struct | value of the structure in dollars (depriciated replacement value) | float64 |
+val_cont | value of the contents in dollars  | float64 |
+val_car | value of the cars in dollars | float64 |
+pop2amu65 | population night under 65 years old | int |
+pop2amo65 | population night over 65 years old | int |
+pop2pmu65 | population day under 65 years old  | int |
+pop2pmo65 | population day over 65 years old | int |
+basement | defines if the structure has a bsement or not | string | yes or no
+constr_type | construction type of the structure. | string |
+found_ht | foundation height (in feet) of the structure | float64 |
+found_type | foundation type of the structure | string | 4 characters
+median_yrblt | best estimate of median year built | int | 
+post_firm | value representing built before or after firm date, 1 is after, 0 is before | int | 0 or 1
+num_story | number of stories | int |
+num_cars | number of cars | int |
+ground_ele | ground elevation (in meters) | float64 |
+
+
 
 # USACE-Developed NSI Base Data
 
